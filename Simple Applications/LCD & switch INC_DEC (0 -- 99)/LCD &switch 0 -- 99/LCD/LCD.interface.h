@@ -15,11 +15,6 @@ void LCD_Send_StringData(u8 *data);
 void LCD_vInit_4Bit();
 void LCD_Send_CMD_4BIT(u8 cmd);
 void LCD_Send_Data_4BIT(u8 data);
-void LCD_Send_StringData_4bit(u8 *data);
-void LCD_CLR_SCREEN_4BIT();
-void LCD_CLR_SCREEN();
-void LCD_NEW_LINE_4BIT();
-void LCD_NEW_LINE();
-
+void LCD_Send_StringData_4BIT(u8 *data);
 
 #endif
